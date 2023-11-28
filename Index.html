@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+<link defer rel="stylesheet" href="script.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Youtube Video Downloader</title>
+</head>
+<body class="dark-mode">
+
+<header>
+    <h1 class="title">Youtube Video Downloader</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</header>
+
+<div class="content-wrapper">
+    <section>
+        <h1>Youtube Downloader</h1>
+        <div class="link-container">
+            <label for="link">Video Link</label>
+            <input type="text" class="link" name="link" placeholder="Enter Video Link" required>
+        </div>
+        <div class="format-container">
+            <label for="format">Format</label>
+            <select class="format" required>
+                <option selected disabled>Select Video Format</option>
+                <option value="mp3">Mp3</option>
+                <option value="mp4a">144</option>
+                <option value="360">360</option>
+                <option value="480">480</option>
+                <option value="720">720</option>
+                <option value="1080">1080</option>
+                <option value="4k">4k</option>
+                <option value="8k">8k</option>
+            </select>
+        </div>
+        <div class="button-container">
+            <button class="btn" type="submit">Start</button>
+        </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
